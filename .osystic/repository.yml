@@ -1,0 +1,43 @@
+schema_version: 2
+repository_class: public-showcase
+visibility: public
+lifecycle: maintenance
+
+owner_team: engineering
+technical_owner_github: osystic
+data_classification: public
+client_identity_public: false
+
+portfolio:
+  eligible: true
+  status: approved-public-showcase
+
+source:
+  type: sanitized-client-delivery
+  confidential_source_linked: false
+  source_code_included: false
+
+publication:
+  contact_information_included: false
+  credentials_included: false
+  private_infrastructure_included: false
+  contract_or_payment_details_included: false
+  private_conversations_included: false
+
+project:
+  key: windows-android-workflow-orchestrator
+  name: Windows & Android Workflow Orchestrator
+  status: completed
+  acceptance: client-approved-engineering
+  provider_e2e_verified: false
+
+delivery:
+  default_branch: main
+  ci_required: true
+  production_environment: false
+
+website:
+  eligible: true
+  status: ready-for-review
+  canonical_slug: windows-android-workflow-orchestrator
+  auto_sync: false
